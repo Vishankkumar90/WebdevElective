@@ -1,0 +1,17 @@
+scikit-learn
+pandas
+numpy
+seaborn
+matplotlib
+flask
+tensorflow
+keras
+streamline
+scikeras
+tensorboard
+streamline
+streamlit
+keras
+statsmodels
+cv2
+
