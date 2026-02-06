@@ -1,15 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './component/temp.jsx'
+import Registration from './component/Registration.jsx'
+import Footer from './component/Footer1.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const y=[2021,2022,2023]
+  const c={a:"Home",b:2,c:3}
 
   return (
     <>
-      <h1>Hello</h1>
-      <h1>KIET</h1>
+      <Header title="My first react app">
+      
+      <nav className='nav'></nav>
+      </Header>
+      <Registration />
+      <Footer year={y[1]} data={c.a} />
+      
     </>
   )
 }
