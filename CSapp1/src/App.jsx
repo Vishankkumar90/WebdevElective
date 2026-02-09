@@ -15,7 +15,14 @@ function App() {
       <nav className='nav'></nav>
       </Header>
       <Registration />
+
+      
+
       <Footer year={y[1]} data={c.a} />
+
+
+
+
       
     </>
   )

@@ -1,9 +1,11 @@
 import "./temp.css"
 
-export default function Header(a){
+export default function Header({title,color,year}){
     return(
         <>
-        <h1>{a.title}</h1>
+        <h1>{title}</h1>
+        <h2>{color}</h2>
+        <h2>{year}</h2>
         
 
         <nav>
@@ -15,3 +17,5 @@ export default function Header(a){
     )
 
 }
+
+
